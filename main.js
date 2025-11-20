@@ -13,7 +13,7 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
   // Load webscene from portal item
     const scene = new WebScene({
         portalItem: {
-            id: "dea74d75219c45b19ffc57890b815746" // this is the id of the sceneview the app is connected to dutton's atlas: dea74d75219c45b19ffc57890b815746
+            id: "dea74d75219c45b19ffc57890b815746"
         }
     });
 
@@ -127,7 +127,7 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
   viewerBtn.addEventListener('click', function(event){
     // Toggle panorama
     $('#viewerModal').modal('show');
-    document.getElementById("pano").src="https://cdn.pannellum.org/2.5/pannellum.htm#config=https://mapgeoasu.github.io/dutton3d/tour.json&autoLoad=true";
+    document.getElementById("pano").src="https://cdn.pannellum.org/2.5/pannellum.htm#config=https://mapgeoasu.github.io/naturespace/tour.json&autoLoad=true";
   })
 
   // Add the button to the UI
