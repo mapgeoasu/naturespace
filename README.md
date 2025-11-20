@@ -1,1 +1,1 @@
-Welcome to the Dutton's Atlas 3D Exhibit! The interactive map scene is a digital replica of a real-world exhibit located in Arizona State Universitys Hayden Library, in Tempe, Arizona, USA.  Its real-world counterpart, is part of a larger project called Dutton's Atlas: How Cartography Helped the Canyon Become Grand. The physical exhibit is temporary and runs between October 2022 and January 2023.
+Welcome to the 3D Naturespace! The interactive map scene is a digital twin of the real-world space located at Arizona State University's Hayden Library.
