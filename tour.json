@@ -1,0 +1,98 @@
+{   
+    "default": {
+        "firstScene": "face",       
+        "sceneFadeDuration": 1000,
+        "autoload": true
+    },
+    
+    "scenes": {
+        "face": {
+            "title": "Exhibit Face", 
+            "yaw": -10,
+            "pitch": 0,
+            "type": "equirectangular",
+            "panorama": "img/exhibit_front.JPG",
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 23,
+                    "type": "scene",
+                    "text": "Exhibit Wall",
+                    "sceneId": "wall"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": -40,
+                    "type": "scene",
+		            "text": "Exhibit Nook",
+		            "sceneId": "nook"
+                },
+                {
+                    "pitch": 5,
+                    "yaw": -2,
+                    "type": "info",
+                    "text": "This installation is part of a larger project accompanied by a significant digital component. Visit the Dutton's Atlas sublink above to learn more. " 
+                }
+            ]
+        },
+
+        "nook": {
+            "title": "Exhibit Nook",
+            "hfov": 120,
+            "yaw": 180,
+            "pitch": 0,
+            "type": "equirectangular",
+            "panorama": "img/nook_update.JPG",
+            "hotSpots": [
+                {
+                    "pitch": 0.3,
+                    "yaw": -30,
+                    "hfov": 120,
+                    "type": "scene",
+                    "text": "Exhibit Face",
+                    "sceneId": "face"       
+                },
+                {
+                    "pitch": -40,
+                    "yaw": 65,
+                    "type": "info",
+                    "text": "Rocks sourced from the rim, the cliffs, and the bottom of the Grand Canyon. "
+                },
+		{
+                    "pitch": -40,
+                    "yaw": 180,
+                    "type": "info",
+                    "text": "Three dimension terrain model of the Grand Canyon, showcasing Powell Plateau and it's extending ridges."
+                },
+		{
+                    "pitch": -10,
+                    "yaw": -92,
+                    "type": "info",
+                    "text": "Hand-made terrain model and puzzle of the eastern half of the Grand Canyon region."
+                }
+            ]
+        },
+		"wall": {
+        "title": "Exhibit Wall",
+	"pitch": 1.5,		
+        "yaw": 0,
+        "type": "equirectangular",
+        "panorama": "img/side_wall.JPG",
+        "hotSpots": [
+          {
+            "pitch": -1.5,
+            "yaw": -65,
+            "type": "scene",
+            "text": "Exhibit Face",
+            "sceneId": "face"
+          },
+	  {
+	    "pitch": -20,
+	    "yaw": 0,
+	    "type": "info",
+	    "text": "One of the most iconic pieces from the atlas, the triptych 'Panorama from Point Sublime'."
+	  }
+        ]
+      }
+    }
+}
