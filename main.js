@@ -13,7 +13,7 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
   // Load webscene from portal item
     const scene = new WebScene({
         portalItem: {
-            id: "dea74d75219c45b19ffc57890b815746"
+            id: "b5c97492ffb9465d8028d67cbbc09d37"
         }
     });
 
