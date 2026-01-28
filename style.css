@@ -41,28 +41,31 @@ vertical-align:middle;
 
 /*Navbar background color*/
 .bg-light {
-  background: #D49b72 !important;
-  border-bottom: solid 2px #D49B72;
+  background: #8fab6b !important;
+  border-bottom: solid 2px #efe3d5;
 } 
 
 /*Navbar link color*/
 .navbar-light .navbar-brand {
-  color: #50433d;
+  color: #3d352e;
   /* font-variant: small-caps; */
 }
 
 /*Navbar link color*/
 .navbar-light .navbar-brand:visited {
-color: #50433d;
+color: #3d352e;
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #50433d;
+  color: #3d352e;
   font-size: 13px;
 }
 .navbar .navbar-nav .nav-link:hover{
-  color: #50433d;
-  border-bottom: solid 3px #A23617; 
+  color: #ffc627;
+  border-bottom: solid 5px #4AB7C4; 
+  
+  height: 30px;
+  transition: border-bottom .5s ease-out;
 }
 
 /* Set the border color to the desired color */
@@ -71,13 +74,13 @@ color: #50433d;
 }
 
 .navbar-light .navbar-toggler{
-  border-color: #50433d;
+  border-color: #3d352e;
 }
 
 
 #close {
-  background-color: #A23617;
-  border-color: #A23617;
+  background-color: #8fab6b;
+  border-color: #af674b;
 }
 
 #viewerModal {
@@ -87,7 +90,11 @@ color: #50433d;
 
 /*Infobox*/
 .infolink {
-  color: #A23617;
+  color: #af674b;
+}
+.infolink:hover{
+  color: #4AB7C4;
+  /*border-bottom: solid 3px #af674b; */
 }
 
 #infoModal img {
@@ -130,7 +137,7 @@ color: #50433d;
 }
 
 .esri-widget {
-  color: #50433d;
+  color: #3d352e;
   display: flex;
   font-family: 'Merriweather', serif;
   }

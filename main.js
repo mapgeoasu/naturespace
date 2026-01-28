@@ -22,7 +22,7 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
       map: scene,
       qualityProfile: "high",
       highlightOptions: {
-        color: [162, 54, 23], 
+        color: '#4AB7C4', 
         fillOpacity: 0,
       },
       popup: {
@@ -121,17 +121,17 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
   // $(".esri-icon-pause").hide();
 
   // Add element for the 360 photo viewer button using Esri widgets
-  var viewerBtn = document.createElement('div');
-  viewerBtn.className = "esri-icon-media esri-widget--button esri-widget esri-interactive";
-  viewerBtn.title = "View 360 Hub photo";
-  viewerBtn.addEventListener('click', function(event){
-    // Toggle panorama
-    $('#viewerModal').modal('show');
-    document.getElementById("pano").src="https://cdn.pannellum.org/2.5/pannellum.htm#config=https://mapgeoasu.github.io/naturespace/tour.json&autoLoad=true";
-  })
+  //var viewerBtn = document.createElement('div');
+  //viewerBtn.className = "esri-icon-media esri-widget--button esri-widget esri-interactive";
+  //viewerBtn.title = "View 360 photo";
+  //viewerBtn.addEventListener('click', function(event){
+  //  // Toggle panorama
+  //  $('#viewerModal').modal('show');
+  //  document.getElementById("pano").src="https://cdn.pannellum.org/2.5/pannellum.htm#config=https://mapgeoasu.github.io/naturespace/tour.json&autoLoad=true";
+  //})
 
   // Add the button to the UI
-  view.ui.add(viewerBtn, "top-left"); 
+  //view.ui.add(viewerBtn, "top-left"); 
 
   // Add element for the information button using Esri widgets
   var infoBtn = document.createElement('div');
