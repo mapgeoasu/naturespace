@@ -33,7 +33,7 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
            // Positions the popup top-right until screen sizes changes. Can set to a specific location. Example: bottom-right
           // position: "auto",
           //Allows the docking button. Set to false if you don't want the user to dock
-          buttonEnabled: true,
+          buttonEnabled: false,
           // Ignore the default sizes that trigger responsive docking
           breakpoint: false,
           // collapseEnabled: true,
@@ -44,11 +44,10 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
     // Removes the Zoom To button at the top of the popup. Set to true to add.
     view.popup.viewModel.includeDefaultActions = false;
 
-
     // reduce popup size
-    // $(function() {            
-    //   $("body:not(.esriIsPhoneSize) #viewDiv .esri-popup.esri-popup--is-docked .esri-popup__main-container").css('padding-bottom', '5000px');                
-    // });
+     //$(function() {            
+     //  $("body:not(.esriIsPhoneSize) #viewDiv .esri-popup.esri-popup--is-docked .esri-popup__main-container").css('padding-bottom', '5000px');                
+     //});
 
     // Adds padding to the widgets
     view.ui.padding = 10;
