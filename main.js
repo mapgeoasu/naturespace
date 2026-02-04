@@ -22,8 +22,9 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
       map: scene,
       qualityProfile: "high",
       highlightOptions: {
-        color: '#4AB7C4', 
-        fillOpacity: 0,
+        color: '#78BE20', 
+        fillOpacity: 0.1,
+        haloOpacity: 1
       },
       popup: {
         //Docks the popup and removes the default that connects popup to item
