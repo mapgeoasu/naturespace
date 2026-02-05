@@ -22,7 +22,13 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
       map: scene,
       qualityProfile: "high",
       highlightOptions: {
-        color: '#78BE20', 
+        //color: '#78BE20', 
+        //color: '#FFE600',
+        color: '#26E600',
+        //color: '#44C8F5',
+        //color: '#EC008C',
+        //color: '#FF5500',
+        //color: '#6600CC',
         fillOpacity: 0.1,
         haloOpacity: 1
       },

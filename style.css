@@ -143,11 +143,13 @@ color: #3d352e;
 
 .esri-feature-content a {
   color: #af674b;
-  /*border-bottom: solid 3px #af674b; */
+  font-weight: bold;
+  /*border-bottom: solid 1px #af674b; */
 }
 .esri-feature-content a:hover {
   color: #4AB7C4;
-  /*border-bottom: solid 3px #af674b; */
+  font-weight: bold;
+  /*border-bottom: solid 3px #4AB7C4; */
 }
 
 .esri-widget {
