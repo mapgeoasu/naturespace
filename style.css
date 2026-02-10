@@ -1,9 +1,19 @@
 html, body { 
-  font-family: 'Montserrat', sans-serif !important;
+  /*font-family: 'Montserrat', sans-serif !important;*/
+  /*font-family: 'Nunito', sans-serif !important;*/
+  /*font-family: 'Fredoka', sans-serif !important;*/
+  /*font-family: 'Spectral', sans-serif !important;*/
+  font-family: 'Geologica', sans-serif !important;
+  /*font-family: 'Kulim Park', sans-serif !important;*/
 }
 
 .pnlm-title-box {
-  font-family: 'Montserrat', sans-serif !important;
+  /*font-family: 'Montserrat', sans-serif !important;*/
+  /*font-family: 'Nunito', sans-serif !important;*/
+  /*font-family: 'Fredoka', sans-serif !important;*/
+  /*font-family: 'Spectral', sans-serif !important;*/
+  font-family: 'Geologica', sans-serif !important;
+  /*font-family: 'Kulim Park', sans-serif !important;*/
 }
 
 #viewDiv {
@@ -115,7 +125,12 @@ color: #3d352e;
 
 #infoModal .modal-title{
   font-weight: normal !important;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Nunito', sans-serif;*/
+  /*font-family: 'Fredoka', sans-serif;*/
+  /*font-family: 'Spectral', sans-serif;*/
+  font-family: 'Geologica', sans-serif;
+  /*font-family: 'Kulim Park', sans-serif;*/
   font-size: 1.5em
 }
 
@@ -126,12 +141,22 @@ color: #3d352e;
 
 #infoModal p {
   font-size: 0.85em;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Nunito', sans-serif;*/
+  /*font-family: 'Fredoka', sans-serif;*/
+  /*font-family: 'Spectral', sans-serif;*/
+  font-family: 'Geologica', sans-serif;
+  /*font-family: 'Kulim Park', sans-serif;*/
 }
 
 #infoModal ul {
   font-size: 0.85em;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Nunito', sans-serif;*/
+  /*font-family: 'Fredoka', sans-serif;*/
+  /*font-family: 'Spectral', sans-serif;*/
+  font-family: 'Geologica', sans-serif;
+  /*font-family: 'Kulim Park', sans-serif;*/
 }
 
 .esri-popup__header-title {
@@ -155,7 +180,12 @@ color: #3d352e;
 .esri-widget {
   color: #3d352e;
   display: flex;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Nunito', sans-serif;*/
+  /*font-family: 'Fredoka', sans-serif;*/
+  /*font-family: 'Spectral', sans-serif;*/
+  font-family: 'Geologica', sans-serif;
+  /*font-family: 'Kulim Park', sans-serif;*/
   }
 
   /* Esri Popup controls  */
