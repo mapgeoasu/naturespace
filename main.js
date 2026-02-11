@@ -77,21 +77,21 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
     });
 
   // Function to rotate the map
-  // function rotate() {         
-  //   view.goTo({
-  //       heading: view.camera.heading + 0.2,
-  //       center: view.center
-  //   }, {animate: false});
-  //   // begin the rotation
-  //   var req = requestAnimationFrame(rotate);            
-  //   // when the user clicks on the pause button
-  //   pauseBtn.addEventListener('click', function(event){  
-  //     // cancel the rotation
-  //     cancelAnimationFrame(req);
-  //     $(".esri-icon-play").show(); 
-  //     $(".esri-icon-pause").hide();     
-  //   })
-  // };   
+   function rotate() {         
+     view.goTo({
+         heading: view.camera.heading + 0.15,
+         center: view.center
+     }, {animate: false});
+     // begin the rotation
+     var req = requestAnimationFrame(rotate);            
+     // when the user clicks on the pause button
+     pauseBtn.addEventListener('click', function(event){  
+       // cancel the rotation
+       cancelAnimationFrame(req);
+       $(".esri-icon-play").show(); 
+       $(".esri-icon-pause").hide();     
+     })
+   };   
 
   // Custom Buttons
   // Home button
@@ -104,27 +104,27 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
   view.ui.add(homeBtn, "top-left");        
 
   // Rotate play button
-  // var rotateBtn = document.createElement('div');        
-  // rotateBtn.className = "esri-icon-play esri-widget--button esri-widget esri-interactive";
-  // rotateBtn.title = "Auto-rotate map";
-  // rotateBtn.addEventListener('click', function(event){
-  //   rotate();
-  //   $(".esri-icon-play").hide();
-  //   $(".esri-icon-pause").show();         
-  // })
+   var rotateBtn = document.createElement('div');        
+   rotateBtn.className = "esri-icon-play esri-widget--button esri-widget esri-interactive";
+   rotateBtn.title = "Auto-rotate map";
+   rotateBtn.addEventListener('click', function(event){
+     rotate();
+     $(".esri-icon-play").hide();
+     $(".esri-icon-pause").show();         
+   })
 
   // Add the button to the UI
-  // view.ui.add(rotateBtn, "top-left");
+   view.ui.add(rotateBtn, "top-left");
 
   // Pause button
-  // var pauseBtn = document.createElement('div');
-  // pauseBtn.className = "esri-icon-pause esri-widget--button esri-widget esri-interactive";
-  // pauseBtn.title = "Pause rotation";
+   var pauseBtn = document.createElement('div');
+   pauseBtn.className = "esri-icon-pause esri-widget--button esri-widget esri-interactive";
+   pauseBtn.title = "Pause rotation";
 
   // Add the button to the UI
-  // view.ui.add(pauseBtn, "top-left"); 
+   view.ui.add(pauseBtn, "top-left"); 
 
-  // $(".esri-icon-pause").hide();
+   $(".esri-icon-pause").hide();
 
   // Add element for the 360 photo viewer button using Esri widgets
   //var viewerBtn = document.createElement('div');
