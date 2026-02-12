@@ -2,7 +2,7 @@
     "default": {
         "firstScene": "interior",       
         "sceneFadeDuration": 1000,
-        "autoload": true,
+        "autoload": true
     },
     
     "scenes": {
