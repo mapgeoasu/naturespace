@@ -1,6 +1,6 @@
 {   
     "default": {
-        "firstScene": "exterior",       
+        "firstScene": "interior",       
         "sceneFadeDuration": 1000,
         "autoload": true
     },
