@@ -23,8 +23,8 @@
 
                 },
                 {
-                    "pitch": 0,
-                    "yaw": -10,
+                    "pitch": 10,
+                    "yaw": 0,
                     "type": "info",
                     "text": "info box" 
                 }
