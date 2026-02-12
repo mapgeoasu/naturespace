@@ -29,7 +29,6 @@
             ]
         },
         
-        /*
         "exterior": {
             "title": "Naturespace Exterior",
             "hfov": 120,
@@ -66,6 +65,5 @@
                   }
             ]
         }
-        */
     }
 }
