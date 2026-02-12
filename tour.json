@@ -16,15 +16,15 @@
             "hotSpots": [
                 {
                     "pitch": 0,
-                    "yaw": 23,
+                    "yaw": 90,
                     "type": "scene",
                     "text": "Naturespace Exterior",
                     "sceneId": "exterior"
 
                 },
                 {
-                    "pitch": 5,
-                    "yaw": -2,
+                    "pitch": 0,
+                    "yaw": -10,
                     "type": "info",
                     "text": "info box" 
                 }
@@ -40,7 +40,7 @@
             "panorama": "img/2_Naturespace_3D_View.JPG",
             "hotSpots": [
                   {
-                    "pitch": 0.3,
+                    "pitch": 0,
                     "yaw": -30,
                     "hfov": 120,
                     "type": "scene",
