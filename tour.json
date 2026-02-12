@@ -10,6 +10,7 @@
             "title": "Naturespace Interior", 
             "yaw": -10,
             "pitch": 0,
+            "roll": -10,
             "type": "equirectangular",
             "panorama": "img/1_Naturespace_3D_View.JPG",
             "hotSpots": [
@@ -17,7 +18,7 @@
                     "pitch": 0,
                     "yaw": 23,
                     "type": "scene",
-                    "text": "Future Naturespace Exterior",
+                    "text": "Naturespace Exterior",
                     "sceneId": "exterior"
 
                 },
