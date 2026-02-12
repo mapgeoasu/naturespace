@@ -1,6 +1,6 @@
 {   
     "default": {
-        "firstScene": "interior",       
+        "firstScene": "exterior",       
         "sceneFadeDuration": 1000,
         "autoload": true
     },
@@ -19,7 +19,6 @@
                     "type": "scene",
                     "text": "Naturespace Exterior",
                     "sceneId": "exterior"
-
                 },
                 {
                     "pitch": 20,
