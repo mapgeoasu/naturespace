@@ -11,7 +11,7 @@
             "horizonPitch": 10,
             "horizonRoll": 2,
             "pitch": 0,
-            "yaw": -10,
+            "yaw": 10,
             "type": "equirectangular",
             "panorama": "img/1_Naturespace_3D_View.JPG",
             "hotSpots": [
