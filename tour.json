@@ -3,8 +3,7 @@
         "firstScene": "interior",       
         "sceneFadeDuration": 1000,
         "autoload": true,
-        "horizonPitch": -25,
-        "horizonRoll": -25, 
+
     },
     
     "scenes": {
@@ -12,7 +11,8 @@
             "title": "Naturespace Interior", 
             "yaw": 0,
             "pitch": 0,
-            
+            "horizonPitch": 0,
+            "horizonRoll": 0, 
             "type": "equirectangular",
             "panorama": "img/1_Naturespace_3D_View.JPG",
             "hotSpots": [
