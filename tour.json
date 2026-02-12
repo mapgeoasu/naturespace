@@ -17,8 +17,9 @@
                     "pitch": 0,
                     "yaw": 23,
                     "type": "scene",
-                    "text": "Future Naturespace Exterior"
+                    "text": "Future Naturespace Exterior",
                     "sceneId": "exterior"
+
                 },
                 {
                     "pitch": 5,
@@ -28,7 +29,7 @@
                 }
             ]
         },
-        
+
         "exterior": {
             "title": "Naturespace Exterior",
             "hfov": 120,
