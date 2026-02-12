@@ -8,9 +8,9 @@
     "scenes": {
         "interior": {
             "title": "Naturespace Interior", 
-            "yaw": 0,
-            "pitch": 0,
-            "roll": 0,
+            "yaw": 10,
+            "pitch": -5,
+            "roll": 5,
             "type": "equirectangular",
             "panorama": "img/1_Naturespace_3D_View.JPG",
             "hotSpots": [
