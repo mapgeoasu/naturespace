@@ -50,19 +50,19 @@
                     "pitch": -40,
                     "yaw": 65,
                     "type": "info",
-                    "text": ""
+                    "text": "info button"
                   },
 		          {
                     "pitch": -40,
                     "yaw": 180,
                     "type": "info",
-                    "text": ""
+                    "text": "info button"
                   },
 		          {
                     "pitch": -10,
                     "yaw": -92,
                     "type": "info",
-                    "text": ""
+                    "text": "info button"
                   }
             ]
         }
