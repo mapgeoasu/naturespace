@@ -11,8 +11,6 @@
             "title": "Naturespace Interior", 
             "yaw": 0,
             "pitch": 0,
-            "horizonPitch": 0,
-            "horizonRoll": 0, 
             "type": "equirectangular",
             "panorama": "img/2_Naturespace_3D_view.JPG",
             "hotSpots": [
