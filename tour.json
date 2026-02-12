@@ -18,7 +18,7 @@
                     "yaw": 23,
                     "type": "scene",
                     "text": "Future Naturespace Exterior"
-                    //"sceneId": "exterior"
+                    "sceneId": "exterior"
                 },
                 {
                     "pitch": 5,
