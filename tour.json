@@ -39,7 +39,7 @@
             "yaw": 180,
             "pitch": 0,
             "type": "equirectangular",
-            "panorama": "img/2_Naturespace_3D_View.JPG",
+            "panorama": "img/1_Naturespace_3D_View.JPG",
             "hotSpots": [
                   {
                     "pitch": 0,
