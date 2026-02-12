@@ -14,7 +14,7 @@
             "horizonPitch": 0,
             "horizonRoll": 0, 
             "type": "equirectangular",
-            "panorama": "img/1_Naturespace_3D_View.JPG",
+            "panorama": "img/2_Naturespace_3D_view.JPG",
             "hotSpots": [
                 {
                     "pitch": 0,
