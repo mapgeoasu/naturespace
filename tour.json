@@ -8,7 +8,7 @@
     "scenes": {
         "interior": {
             "title": "Naturespace Interior", 
-            "horizonPitch": -15,
+            "horizonPitch": 15,
             "horizonRoll": 0,
             "pitch": 0,
             "yaw": 12,
