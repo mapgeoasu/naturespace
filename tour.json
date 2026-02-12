@@ -3,14 +3,13 @@
         "firstScene": "interior",       
         "sceneFadeDuration": 1000,
         "autoload": true,
-
     },
     
     "scenes": {
         "interior": {
             "title": "Naturespace Interior", 
-            "yaw": 25,
-            "pitch": 25,
+            "pitch": 0,
+            "yaw": 0,
             "type": "equirectangular",
             "panorama": "img/1_Naturespace_3D_View.JPG",
             "hotSpots": [
@@ -41,7 +40,7 @@
             "hotSpots": [
                   {
                     "pitch": 0,
-                    "yaw": -30,
+                    "yaw": -90,
                     "hfov": 120,
                     "type": "scene",
                     "text": "Naturespace Interior",
