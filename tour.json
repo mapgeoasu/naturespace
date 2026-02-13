@@ -15,6 +15,7 @@
             "type": "equirectangular",
             "panorama": "img/1_Naturespace_3D_View.JPG",
             "hotSpots": [
+                /*
                 {
                     "pitch": 0,
                     "yaw": 120,
@@ -28,9 +29,11 @@
                     "type": "info",
                     "text": "info box" 
                 }
+                */
             ]
         },
 
+        /*
         "exterior": {
             "title": "Naturespace Exterior",
             "hfov": 120,
@@ -67,5 +70,6 @@
                   }
             ]
         }
+        */
     }
 }
