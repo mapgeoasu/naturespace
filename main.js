@@ -73,7 +73,7 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
     // If modal is displayed, store that in localStorage
     $('#infoModal').on('shown.bs.modal', function () {
         sessionStorage.setItem(key, true);
-    })
+    });
     });
 
   // Function to rotate the map
@@ -90,8 +90,8 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
        cancelAnimationFrame(req);
        $(".esri-icon-play").show(); 
        $(".esri-icon-pause").hide();     
-     })
-   };   
+     });
+   }
 
   // Custom Buttons
   // Home button
@@ -111,7 +111,7 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
      rotate();
      $(".esri-icon-play").hide();
      $(".esri-icon-pause").show();         
-   })
+   });
 
   // Add the button to the UI
    view.ui.add(rotateBtn, "top-left");
@@ -127,17 +127,17 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
    $(".esri-icon-pause").hide();
 
   // Add element for the 360 photo viewer button using Esri widgets
-  //var viewerBtn = document.createElement('div');
-  //viewerBtn.className = "esri-icon-media esri-widget--button esri-widget esri-interactive";
-  //viewerBtn.title = "View 360 photo";
-  //viewerBtn.addEventListener('click', function(event){
-  //  // Toggle panorama
-  //  $('#viewerModal').modal('show');
-  //  document.getElementById("pano").src="https://cdn.pannellum.org/2.5/pannellum.htm#config=https://mapgeoasu.github.io/naturespace/tour.json&autoLoad=true";
-  //})
+  var viewerBtn = document.createElement('div');
+  viewerBtn.className = "esri-icon-media esri-widget--button esri-widget esri-interactive";
+  viewerBtn.title = "View 360 photo";
+  viewerBtn.addEventListener('click', function(event){
+  // Toggle panorama
+  $('#viewerModal').modal('show');
+  document.getElementById("pano").src="https://cdn.pannellum.org/2.5/pannellum.htm#config=https://mapgeoasu.github.io/naturespace/tour.json&autoLoad=true";
+  });
 
   // Add the button to the UI
-  //view.ui.add(viewerBtn, "top-left"); 
+  view.ui.add(viewerBtn, "top-left"); 
 
   // Add element for the information button using Esri widgets
   var infoBtn = document.createElement('div');
@@ -146,7 +146,7 @@ require(["esri/WebScene", "esri/views/SceneView", "esri/widgets/Home"], function
   infoBtn.addEventListener('click', function(event){
     // Toggle infowindow modal
     $('#infoModal').modal('show');
-  })
+  });
 
   // Add the button to the UI
   view.ui.add(infoBtn, "top-left"); 
