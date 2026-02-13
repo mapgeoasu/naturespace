@@ -11,7 +11,7 @@
             "horizonPitch": -15,
             "horizonRoll": 0,
             "pitch": 0,
-            "yaw": -5,
+            "yaw": 15,
             "type": "equirectangular",
             "panorama": "img/1_Naturespace_3D_View.JPG",
             "hotSpots": [
@@ -23,8 +23,8 @@
                     "sceneId": "exterior"
                 },
                 {
-                    "pitch": 20,
-                    "yaw": 10,
+                    "pitch": 15,
+                    "yaw": 8,
                     "type": "info",
                     "text": "info box" 
                 }
