@@ -9,7 +9,7 @@
         "interior": {
             "title": "Naturespace Interior", 
             "horizonPitch": 2,
-            "horizonRoll": 0,
+            "horizonRoll": -1,
             "pitch": 0,
             "yaw": 5,
             "type": "equirectangular",
@@ -24,7 +24,7 @@
                 },
                 {
                     "pitch": 15,
-                    "yaw": 3,
+                    "yaw": 4,
                     "type": "info",
                     "text": "info box" 
                 }
